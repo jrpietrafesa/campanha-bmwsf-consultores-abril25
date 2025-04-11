@@ -38,7 +38,7 @@ body {
 .container__imagem{
     margin: 1em 0 2em 0;
     border-radius: 2%;
-    width: 50%;
+    width: 70%;
     box-shadow: 0 4px 8px rgba(10, 10, 10, 0.2);
 }
 
@@ -102,3 +102,10 @@ body {
     margin: 5em 3em;
 }
 
+@media screen and (max-width: 1024px) {
+    .container__imagem{
+    margin: 0% 0 0em 0;
+    border-radius: 2%;
+    width: 100%;
+    }
+}
